@@ -1,0 +1,22 @@
+table {
+    color: #f9f8ff;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+td,
+th {
+    border: 1px solid #a5b4fc;
+    padding: 10px;
+}
+
+td {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+caption {
+    margin-bottom: 70px;
+    font-size: 1.3em;
+}

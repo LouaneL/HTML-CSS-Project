@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Accueil – Robbie Lens Photographie</title>
+    <!-- Font : monserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- Font : manrope-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Montserrat:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet">
+    <link href="style/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Images/logo.png" alt="Accueil">
+                </a>
+            </div>
+            <div class="liens-navigation">
+                <a href="index.html">Accueil</a>
+                <a href="a-propos.html">A Propos</a>
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="accueil-introduction">
+            <div>
+                <h1>Photographie</h1>
+                <p>
+                    Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis plus de 5 ans maintenant,
+                    j’exerce
+                    mon
+                    métier
+                    avec la passion
+                    qui m’anime : capturer l’essence de chaque instant.
+                </p>
+                <a href="#formulaire" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
+            </div>
+            <img src="Images/robbie-lens.png" alt="Photo artistique de Robbie Lens" class="photo-Robbie">
+        </section>
+        <section class="accueil-photos">
+            <h2>Mon dernier projet</h2>
+            <div>
+                <img src="Images/accueil/element-1.png" alt="Photos">
+                <img src="Images/accueil/element-2.png" alt="Photos">
+                <img src="Images/accueil/element-3.png" alt="Photos">
+            </div>
+            <div>
+                <img src="Images/accueil/element-4.png" alt="Photos">
+                <img src="Images/accueil/element-5.png" alt="Photos">
+                <img src="Images/accueil/element-6.png" alt="Photos">
+            </div>
+        </section>
+        <section id="formulaire" class="section-contact">
+            <h2>Parlons de votre projet</h2>
+            <form method="get" action="">
+                <div class="nom-email">
+                    <div class="form-column">
+                        <label for="nom">Quel est votre nom ? <em class="star">*</em></label>
+                        <input type="text" name="nom" id="nom" required>
+                    </div>
+                    <div class="form-column">
+                        <label for="email">Quel est votre e-mail ? <em class="star">*</em></label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                </div>
+                <label for="message">Un message ?</label>
+                <textarea type="text" name="message" id="message"></textarea>
+                <input type="submit" value="ENVOYER" class="bouton-envoie">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <a href="index.html">
+                <img src="Images/logo.png" alt="Accueil">
+            </a>
+            <div>
+                <a target="_blank" href="https://twitter.com/" class="lien-icone">
+                    <img src="Images/twitter.png" alt="Logo twitter">
+                </a>
+                <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
+                    <img src="Images/instagram.png" alt="Logo intagram">
+                </a>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>
